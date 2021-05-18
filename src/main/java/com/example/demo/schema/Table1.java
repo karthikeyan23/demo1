@@ -29,7 +29,7 @@ public class Table1 extends BaseEntity{
     private String remarks;
 
     @ManyToOne
-    @JoinColumn(name = "table2_p_key")
+    @JoinColumn(name = "test")
     private Table2 table2;
 
     public Table1(Table1 other){

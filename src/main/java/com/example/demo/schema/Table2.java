@@ -23,7 +23,6 @@ public class Table2 extends BaseEntity {
     private aType aType;
 
     @OneToMany
-    @JoinColumn(name = "table1_p_key")
     private Set<Table1> table1;
 
     public Table2(Table2 other) {
